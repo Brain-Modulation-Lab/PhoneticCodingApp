@@ -1,3 +1,5 @@
+%writing random stuff............................................
+
 Function loadAllTrials(EventTimes, SkipEvents, 
 TotTrials=floor((length(EventTimes)-SkipEvents)/4);
 
