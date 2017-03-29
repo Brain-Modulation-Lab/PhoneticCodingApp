@@ -1,0 +1,66 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="/Users/pirnia/Dropbox (Brain Modulation Lab)/Speech Project/Decoding/App_v1.5/Untitled1.prj" location="/Users/pirnia/Dropbox (Brain Modulation Lab)/Speech Project/Decoding/App_v1.5" name="Untitled1" target="target.mlapps" target-name="Package App">
+    <param.appname />
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/pirnia/Dropbox (Brain Modulation Lab)/Speech Project/Decoding/App/App Name.mlappinstall</param.output>
+    <param.guid />
+    <unset>
+      <param.appname />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.guid />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/TestCodingApp.m</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/pirnia/Dropbox (Brain Modulation Lab)/Speech Project/Decoding/App" name="App Name.mlappinstall" optional="false">/Users/pirnia/Dropbox (Brain Modulation Lab)/Speech Project/Decoding/App/App Name.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2015a.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.12</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

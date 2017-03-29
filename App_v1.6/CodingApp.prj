@@ -1,0 +1,97 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3527642547" file="/Users/brainmodulationlab/Dropbox (Brain Modulation Lab)/Speech Project/Decoding/App_v1.5/CodingApp.prj" location="/Users/brainmodulationlab/Dropbox (Brain Modulation Lab)/Speech Project/Decoding/App_v1.5" name="CodingApp" target="target.mlapps" target-name="Package App">
+    <param.appname>CodingApp</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.5</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/brainmodulationlab/Dropbox (Brain Modulation Lab)/Speech Project/Decoding</param.output>
+    <param.guid>6d9b0c79-f131-45d6-b638-26446942e8fd</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/CodingApp.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/CodingApp.fig</file>
+      <file>${PROJECT_ROOT}/LoadAllTrials.m</file>
+      <file>${PROJECT_ROOT}/addCodeWithButton.m</file>
+      <file>${PROJECT_ROOT}/changeSpectrogram.m</file>
+      <file>${PROJECT_ROOT}/changeTrial.m</file>
+      <file>${PROJECT_ROOT}/detectSpeechOnset.m</file>
+      <file>${PROJECT_ROOT}/lateximage.m</file>
+      <file>${PROJECT_ROOT}/updateCodingMatrix.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/brainmodulationlab/Dropbox (Brain Modulation Lab)/Speech Project" name="Decoding" optional="false">/Users/brainmodulationlab/Dropbox (Brain Modulation Lab)/Speech Project/Decoding</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2015b.app</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.11.3</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

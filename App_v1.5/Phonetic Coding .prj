@@ -1,0 +1,88 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="/Users/pirnia/Dropbox (Brain Modulation Lab)/Speech Project/Decoding/App_v1.5/Phonetic Coding .prj" location="/Users/pirnia/Dropbox (Brain Modulation Lab)/Speech Project/Decoding/App_v1.5" name="Phonetic Coding " target="target.mlapps" target-name="Package App">
+    <param.appname>Phonetic Coding</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>Image Processing Toolbox</item>
+      <item>MATLAB</item>
+      <item>Signal Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>'17'</item>
+      <item>'1'</item>
+      <item>'8'</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.2</item>
+      <item>8.5</item>
+      <item>7.0</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}/Phonetic Coding.mlappinstall</param.output>
+    <param.guid />
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+      <param.guid />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/TestCodingApp.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>/Applications/fieldtrip/fileio/@uint64/all.m</file>
+      <file>/Applications/fieldtrip/fileio/@uint64/any.m</file>
+      <file>/Applications/fieldtrip/fileio/@uint64/diff.m</file>
+      <file>/Applications/fieldtrip/fileio/@uint64/max.m</file>
+      <file>/Applications/fieldtrip/fileio/@uint64/min.m</file>
+      <file>${PROJECT_ROOT}/LoadAllTrials.m</file>
+      <file>${PROJECT_ROOT}/TestCodingApp.fig</file>
+      <file>${PROJECT_ROOT}/addCodeWithButton.m</file>
+      <file>${PROJECT_ROOT}/changeSpectrogram.m</file>
+      <file>${PROJECT_ROOT}/changeTrial.m</file>
+      <file>${PROJECT_ROOT}/detectSpeechOnset.m</file>
+      <file>${PROJECT_ROOT}/lateximage.m</file>
+      <file>${PROJECT_ROOT}/updateCodingMatrix.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/pirnia/Dropbox (Brain Modulation Lab)/Speech Project/Decoding/App_v1.5" name="Phonetic Coding.mlappinstall" optional="false">/Users/pirnia/Dropbox (Brain Modulation Lab)/Speech Project/Decoding/App_v1.5/Phonetic Coding.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2015a.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.12</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
